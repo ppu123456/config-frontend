@@ -1,4 +1,5 @@
-export const baseApiUrl = "http://localhost:3000"
+// export const baseApiUrl = "http://localhost:3000"
+export const baseApiUrl = "https://config-backend.herokuapp.com"
 import { error, success } from "./config/msgs"
 
 export function showError(e) {
